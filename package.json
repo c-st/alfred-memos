@@ -1,0 +1,22 @@
+{
+  "name": "alfred-memos",
+  "version": "1.0.0",
+  "description": "Search and open Memos notes",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "keywords": [
+    "alfred",
+    "workflow",
+    "memos"
+  ],
+  "author": {
+    "name": "Christian Stangier"
+  },
+  "dependencies": {
+    "alfy": "^2.0.0"
+  }
+}
